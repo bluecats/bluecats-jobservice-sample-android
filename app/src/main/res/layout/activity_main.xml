@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="24dp"
+        tools:context="com.bluecats.app.jobservicesample.MainActivity">
+
+    <TextView
+            android:text="1. Copy app_token to MainActivity.java\n2. build and run\n3. Grant all permissions in App Info\n4. See device internal storage -> beacon_ranging.txt for beacon ranging logs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" android:id="@+id/textView"
+            android:layout_marginTop="16dp"
+            android:textSize="20sp" android:textColor="@android:color/black"/>
+
+</android.support.constraint.ConstraintLayout>
