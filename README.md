@@ -1,5 +1,4 @@
-# bluecats-jobservice-sample-android
-Android JobService Sample Project for Android 8+
+# Android JobService Sample Project for Android 8+
 
 This project demonstrates how to use Android's Job Service to implement background scanning as per https://developer.android.com/about/versions/oreo/background. To run this sample replace "APP_TOKEN_HERE" in MainActivity.java with your BlueCats app token. 
 
