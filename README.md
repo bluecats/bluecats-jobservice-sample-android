@@ -8,3 +8,5 @@ Change the constants below to adjust the scanning frequency:
 - SCAN_TIMEOUT_IN_MS: how long between scans in milliseconds
 
 As your app enters the background this scanning frequency will be reduced by the Android OS as it enters deeper sleep. Once the app is back in the foreground the initial scan frequency will be resumed.
+
+This sample app will log scans to a text file named "beacon_ranging.txt" in your device's root external storage location. You as your device enters deeper sleep you will notice that the scans become less frequent due to the Android OS slowly restricting services. 
